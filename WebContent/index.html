@@ -2,8 +2,12 @@
 <html>
 	<head>
 		<meta charset="ISO-8859-1">
-		<title>Portfolio Guilem</title>
+		<title>Portfolio de Torneios</title>
 		<style>
+			
+			body {
+			background-color: black;
+			}
 			
 			#barra-lateral{
 				width: 20%;
@@ -16,16 +20,34 @@
 			}
 			
 			#fotas{
-			width: 80%;
-		    float: right;
+				width: auto;
+		    	float: right;
+		    	color: yellow;
+		    	background-color: black;
+		    	text-align: center;
 			}
 			
-			#título-do-portifolio{font-size: 30px;}
+			#título-do-portifolio{
+				font-size: 30px;
+			}
 			
-			#lista{font-size: 20px;}
+			#subtítulo-do-portifolio{
+				font-size: 20px;
+			}
 			
+			#lista{
+				font-size: 20px;
+			}
+		
+		</style>
+		
 <!--
-Isto é um comentário
+Backup de marcações.
+
+Lembrar de ver se o width das fotas funciona em outra resolução
+
+border-right: yellow 5px solid;
+
 float: left;	
 				top: 1px;
 				left: 1px;
@@ -50,59 +72,86 @@ top: 100%px;
 			<img id="P2019" alt="Foto do Torneio" src="imagens/Pombal 2019.png" width="500">
 -->
 		
-		</style>
 	</head>
 	<body>
 		
-		
-		
 		<div id="barra-lateral">
 		
-		<h1 id="título-do-portifolio">PORTIFÓLIO DE TORNEIOS</h1>
-			
+		<h1 class="título-do-portifolio">PORTIFÓLIO DE TORNEIOS</h1>
+		<h2 id="subtítulo-do-portifolio">GUILEM - META HUNTERS</h2>	
+		
 		<ol id="lista">
 			<li>
-				<a href="#SB2015"><strong>Torneio em São Bento - 2015:</strong> Primeiro lugar.</a> <br>
+				<a href="#SB2015"><strong>Torneio em São Bento - 2015.</strong></a>
 			</li>
 			<li>
-				<a href="#EN2016"><strong>Torneio em Campina Grande - 2016:</strong> Primeiro lugar.</a><br>
+				<a href="#EN2016"><strong>Torneio em Campina Grande - 2016.</strong></a>
 			</li>
 			<li>
-				<a href="#SB2016"><strong>Torneio em São Bento - 2016:</strong> Primeiro lugar.</a><br>
+				<a href="#SB2016"><strong>Torneio em São Bento - 2016.</strong></a>
 			</li>
 			<li>
-				<a href="#SB2017"><strong>Torneio em São Bento - 2017:</strong> Terceiro lugar.</a><br>
+				<a href="#SB2017"><strong>Torneio em São Bento - 2017.</strong></a>
 			</li>
 			<li>
-				<a href="#P2017"><strong>Torneio em Patos - 2017:</strong> Terceiro lugar.</a><br>
+				<a href="#P2017"><strong>Torneio em Patos - 2017.</strong></a>
 			</li>
 			<li>
-				<a href="#CR2017"><strong>Torneio em Catolé do Rocha - 2017:</strong> Terceiro lugar.</a><br>
+				<a href="#CR2017"><strong>Torneio em Catolé do Rocha - 2017.</strong></a>
 			</li>
 			<li>
-				<a href="#C2017"><strong>Torneio em Cajazeiras - 2017:</strong> Segundo lugar.</a><br>
+				<a href="#C2017"><strong>Torneio em Cajazeiras - 2017.</strong></a>
 			</li>
 			<li>
-				<a href="#P2019"><strong>Torneio em Pombal - 2019:</strong> Terceiro lugar.</a><br>
+				<a href="#P2019"><strong>Torneio em Pombal - 2019.</strong></a>
 			</li>
 		</ol>
 			
 		</div>		
 		
 		<div id="fotas">
-			<p> Primeiro lugar com o deck Lightsworn</p>
-			<img id="SB2015" alt="Foto do Torneio" src="imagens/São Bento 2015.jpg">
-			<img id="EN2016" alt="Foto do Torneio" src="imagens/Encontro_Nippon_2016.jpg">
-			<img id="SB2016" alt="Foto do Torneio" src="imagens/São Bento 2016.jpg">
-			<img id="SB2017" alt="Foto do Torneio" src="imagens/São Bento 2017.jpg">
-			<img id="P2017" alt="Foto do Torneio" src="imagens/Patos 2017.jpg">
-			<img id="CR2017" alt="Foto do Torneio" src="imagens/Catolé 2017.jpg">
-			<img id="C2017" alt="Foto do Torneio" src="imagens/Cajazeiras 2017.jpg">
-			<img id="P2019" alt="Foto do Torneio" src="imagens/Pombal 2019.png">
+			
+			<div>
+			<h2 id="SB2015"> Primeiro lugar com o deck <em>Lightsworn</em></h2>
+			<img alt="Foto do Torneio" src="imagens/São Bento 2015.jpg">
+			</div>
+			
+			<div>
+			<h2  id="EN2016"> Primeiro lugar com o deck <em>Satellar</em></h2>
+			<img alt="Foto do Torneio" src="imagens/Encontro_Nippon_2016.jpg">
+			</div>
+			
+			<div>
+			<h2 id="SB2016"> Primeiro lugar com o deck <em>Satellar</em></h2>
+			<img alt="Foto do Torneio" src="imagens/São Bento 2016.jpg">
+			</div>
+			
+			<div>
+			<h2 id="SB2017"> Terceiro lugar com o deck <em>Dino</em></h2>
+			<img alt="Foto do Torneio" src="imagens/São Bento 2017.jpg">
+			</div>
+			
+			<div>
+			<h2 id="P2017"> Terceiro lugar com o deck <em>Sapo</em></h2>
+			<img alt="Foto do Torneio" src="imagens/Patos 2017.jpg">
+			</div>
+			
+			<div>
+			<h2 id="CR2017"> Terceiro lugar com o deck <em>Sapo</em></h2>
+			<img alt="Foto do Torneio" src="imagens/Catolé 2017.jpg">
+			</div>
+			
+			<div>
+			<h2 id="C2017"> Segundo lugar com o deck <em>Sapo</em></h2>
+			<img alt="Foto do Torneio" src="imagens/Cajazeiras 2017.jpg">
+			</div>
+			
+			<div>
+			<h2 id="P2019"> Terceiro lugar com o deck <em>Altergeist</em></h2>
+			<img alt="Foto do Torneio" src="imagens/Pombal 2019.png">
+			</div>
 		
 		</div>
-		
-	
 		
 	</body>
 </html>
